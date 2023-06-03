@@ -37,10 +37,10 @@
                     cursor: pointer;
                     transition: color 0.3s linear;
                 }
-            }
 
-            .activeLink {
-                background-color: white;
+                &:active {
+                    background-color: white;
+                }
             }
         }
     }
