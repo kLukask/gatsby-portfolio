@@ -10,7 +10,12 @@ const IndexPage = () => {
     <Layout>
       <div className='home-page-wrapper'>
         <h1>Father, Web developer & runner</h1>
-        <StaticImage className='home-page-wrapper__image' src='../images/home_image.svg' alt='Developer' />
+        <StaticImage 
+           className='home-page-wrapper__image'
+           src='../images/home_image.svg'
+           alt='Developer'
+           placeholder='blurred'
+           backgroundColor='transparent' />
       </div>
     </Layout>
   )
